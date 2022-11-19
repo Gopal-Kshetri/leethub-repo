@@ -17,7 +17,6 @@ class Solution:
       1: "I"
     }
     result = ''
-    # print(next(iter(myDict)))
     for i in range(13):
       val = list(myDict.keys())[i]
       while num >= val:
